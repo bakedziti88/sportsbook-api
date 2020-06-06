@@ -1,0 +1,27 @@
+{
+  "name": "sportsbook-api",
+  "version": "1.0.0",
+  "description": "Fetches data from sportsbooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakedziti88/sportsbook-api.git"
+  },
+  "author": "David Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bakedziti88/sportsbook-api/issues"
+  },
+  "homepage": "https://github.com/bakedziti88/sportsbook-api#readme",
+  "dependencies": {
+    "apify": "^0.20.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
